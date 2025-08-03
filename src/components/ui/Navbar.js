@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full flex items-center justify-between p-6 z-20 bg-transparent">
+    <nav className="fixed top-0 left-0 w-full flex items-center justify-between p-6 z-20 bg-red-500">
       {/* Logo on the left */}
       <div className="flex-shrink-0">
         <Link to="/">
           <img
             src="/assets/logo-cc.png"
             alt="Connecticut Creative"
-            className="h-8 w-auto"
+            className="h-12 w-auto"
           />
         </Link>
       </div>
