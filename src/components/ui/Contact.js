@@ -11,113 +11,84 @@ export default function Contact() {
         </p>
       </section>
 
-      {/* Divider and Background Color Change */}
+      {/* Divider */}
       <div className="h-1 bg-gray-300" />
 
-      {/* Contact Form Section */}
-      <section 
-      className="bg-cover bg-center py-20 px-6"
+      {/* Contact Form Section with Background */}
+      <section
+        className="bg-cover bg-center py-20 px-6"
         style={{ backgroundImage: "url('/assets/background.png')" }}
-        >
-          {/* Section 1: General Info */}
-          <div className="max-w-4xl mx-auto bg-white bg-opacity-95 p-8 rounded-2xl shadow-lg backdrop-blur-md space-y-6">
-            <div>
-              <label className="block font-medium text-gray-700">First Name *</label>
-              <input type="text" required className="w-full mt-1 border rounded-lg p-2" />
+      >
+        <div className="max-w-4xl mx-auto bg-white bg-opacity-95 p-8 rounded-2xl shadow-lg backdrop-blur-md space-y-6">
+          <form className="space-y-6">
+            {/* First Section */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <input type="text" required placeholder="First Name" className="border p-3 rounded w-full" />
+              <input type="text" required placeholder="Last Name" className="border p-3 rounded w-full" />
+              <input type="email" required placeholder="Email" className="border p-3 rounded w-full" />
+              <input type="text" required placeholder="Company Name" className="border p-3 rounded w-full" />
+              <input type="text" required placeholder="Business Industry" className="border p-3 rounded w-full" />
+              <textarea required placeholder="Describe your brand in a few sentences" className="border p-3 rounded w-full md:col-span-2" />
+              <input type="tel" placeholder="Phone Number (optional)" className="border p-3 rounded w-full" />
+              <input type="text" placeholder="Where are you located?" className="border p-3 rounded w-full" />
+              <input type="url" placeholder="Website" className="border p-3 rounded w-full" />
+              <input type="text" placeholder="Instagram" className="border p-3 rounded w-full" />
+              <input type="text" placeholder="TikTok" className="border p-3 rounded w-full" />
             </div>
-            <div>
-              <label className="block font-medium text-gray-700">Last Name *</label>
-              <input type="text" required className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">Email *</label>
-              <input type="email" required className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">Company Name *</label>
-              <input type="text" required className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div className="md:col-span-2">
-              <label className="block font-medium text-gray-700">Business Industry *</label>
-              <input type="text" required className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div className="md:col-span-2">
-              <label className="block font-medium text-gray-700">Describe your brand in a few sentences *</label>
-              <textarea required className="w-full mt-1 border rounded-lg p-2" rows="3"></textarea>
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">Phone Number (Optional)</label>
-              <input type="tel" className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">Where are you located? (Optional)</label>
-              <input type="text" className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">Website (Optional)</label>
-              <input type="url" className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">Instagram (Optional)</label>
-              <input type="text" className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-            <div>
-              <label className="block font-medium text-gray-700">TikTok (Optional)</label>
-              <input type="text" className="w-full mt-1 border rounded-lg p-2" />
-            </div>
-          </div>
 
-          {/* Section 2: Services Interested In */}
-          <div>
-            <h2 className="text-lg font-semibold text-gray-800">What services are you interested in? *</h2>
-            <div className="mt-4 space-y-2">
-              {[
-                "Social Media Management",
-                "Social Media Audit",
-                "Content Capture (shoot days, bulk content days) (starts at $1,000)",
-                "Consultation ($150/hour)",
-                "Social Media Strategy Deck",
-                "Campaign/Social Strategy",
-              ].map((service) => (
-                <label key={service} className="block">
-                  <input type="radio" name="services" required className="mr-2" value={service} />
-                  {service}
-                </label>
-              ))}
+            {/* Second Section */}
+            <div>
+              <label className="block font-semibold mb-2">What services are you interested in?</label>
+              <div className="space-y-2">
+                {[
+                  "Social Media Management",
+                  "Social Media Audit",
+                  "Content Capture (shoot days, bulk content days) (starts at $1,000)",
+                  "Consultation ($150/hour)",
+                  "Social Media Strategy Deck",
+                  "Campaign/Social Strategy",
+                ].map((service, i) => (
+                  <div key={i}>
+                    <label className="inline-flex items-center">
+                      <input type="radio" name="service" required className="mr-2" value={service} />
+                      {service}
+                    </label>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
 
-          {/* Section 3: Budget and Start Date */}
-          <div>
-            <label className="block font-medium text-gray-700">What is your estimated budget? *</label>
-            <input type="text" required className="w-full mt-1 border rounded-lg p-2" />
-          </div>
+            {/* Third Section */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label className="block font-semibold mb-2">What is your estimated budget?</label>
+                <input type="text" required className="border p-3 rounded w-full" />
+              </div>
+              <div>
+                <label className="block font-semibold mb-2">Preferred Start Date</label>
+                <input type="date" required className="border p-3 rounded w-full" />
+              </div>
+            </div>
 
-          <div>
-            <label className="block font-medium text-gray-700">Preferred Start Date *</label>
-            <input type="date" required className="w-full mt-1 border rounded-lg p-2" />
-          </div>
+            {/* Referral */}
+            <div>
+              <label className="block font-semibold mb-2">How did you hear about us?</label>
+              <select className="border p-3 rounded w-full">
+                <option value="">Select an option</option>
+                <option value="instagram">Instagram</option>
+                <option value="tiktok">TikTok</option>
+                <option value="referral">Referral</option>
+                <option value="search">Google/Search</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
 
-          {/* Dropdown for Referral */}
-          <div>
-            <label className="block font-medium text-gray-700">How did you hear about us? (Optional)</label>
-            <select className="w-full mt-1 border rounded-lg p-2">
-              <option value="">Select</option>
-              <option value="Instagram">Instagram</option>
-              <option value="TikTok">TikTok</option>
-              <option value="Referral">Referral</option>
-              <option value="Google Search">Google Search</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
-          {/* Submit Button */}
-          <div className="text-center">
-            <button type="submit" className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800">
+            {/* Submit */}
+            <button type="submit" className="mt-6 bg-black text-white px-6 py-3 rounded hover:bg-gray-800">
               Submit
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </section>
     </div>
   );
