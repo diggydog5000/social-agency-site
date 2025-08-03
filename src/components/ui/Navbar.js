@@ -11,7 +11,7 @@ export function Navbar() {
           <img
             src="/assets/logo-cc.png"
             alt="Connecticut Creative"
-            className="h-8 w-auto"  // adjust h-# to tweak height
+            className="h-16 w-auto"  // adjust h-# to tweak height
           />
         </a>
       </div>
