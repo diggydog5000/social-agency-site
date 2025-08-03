@@ -5,38 +5,39 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="font-sans">
-      {/* Header Section */}
-      <section className="bg-white text-center py-16 px-4">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-          Get In Touch
-        </h1>
-
-        {/* Animated GIF with rounded corners and offset black box behind */}
-        <div className="relative mx-auto my-8 w-85 h-100">
+      {/* Header Section with GIF and overlayed text */}
+      <section className="relative text-center py-16 px-4">
+        {/* GIF container */}
+        <div className="relative mx-auto my-8 w-80 h-80">
           {/* Off-center black “shadow” box */}
           <div
-            className="absolute bg-red rounded-lg"
+            className="absolute bg-black rounded-lg"
             style={{
-              top: "12%",
-              left: "-16%",
+              top: "10%",
+              left: "-10%",
               width: "100%",
               height: "100%",
-              transform: "rotate(90deg)",
+              transform: "rotate(-4deg)",
             }}
           />
-          {/* Your GIF */}
+          {/* The GIF */}
           <img
             src="/assets/contact-image.gif"
             alt="Contact Illustration"
-            className="relative z-10 h-full w-full object-cover rounded-lg"
+            className="relative z-10 w-full h-full object-cover rounded-lg"
           />
+          {/* Overlayed text */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
+              Get In Touch
+            </h1>
+            <p className="mt-4 text-lg max-w-md text-white drop-shadow-lg">
+              We’d love to hear from you. Whether you’re ready to start your next big
+              project or just want to learn more about what we do, this is where it
+              all begins. Let’s build something impactful.
+            </p>
+          </div>
         </div>
-
-        <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-600">
-          We’d love to hear from you. Whether you’re ready to start your next big
-          project or just want to learn more about what we do, this is where it
-          all begins. Let’s build something impactful.
-        </p>
       </section>
 
       {/* Divider */}
