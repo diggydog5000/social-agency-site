@@ -27,10 +27,10 @@ export default function Contact() {
 
         {/* Right: Text, level with GIF */}
         <div className="mt-8 md:mt-0 md:ml-12 max-w-md text-center md:text-left">
-          <h1 className="text-5xl md:text-7xl font-bold italic text-gray-900">
+          <h1 className="text-5xl md:text-6xl font-bold italic text-gray-900">
             Get In Touch
           </h1>
-          <p className="mt-4 text-3lg text-gray-700">
+          <p className="mt-4 text-lg text-gray-700">
             We’d love to hear from you. Whether you’re ready to start your next big
             project or just want to learn more about what we do, this is where it
             all begins. Let’s build something impactful.
@@ -50,14 +50,67 @@ export default function Contact() {
           <form className="space-y-6 bg-transparent">
             {/* First Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* ...other fields unchanged... */}
               <input
                 type="text"
                 required
                 placeholder="First Name"
                 className="border p-3 rounded w-full bg-white bg-opacity-82"
               />
-              {/* ... */}
+              <input
+                type="text"
+                required
+                placeholder="Last Name"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="email"
+                required
+                placeholder="Email"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="text"
+                required
+                placeholder="Company Name"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="text"
+                required
+                placeholder="Business Industry"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <textarea
+                required
+                placeholder="Describe your brand in a few sentences"
+                className="border p-3 rounded w-full bg-white bg-opacity-82 md:col-span-2"
+                rows={3}
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number (optional)"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="text"
+                placeholder="Where are you located?"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="url"
+                placeholder="Website"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="text"
+                placeholder="Instagram"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
+              <input
+                type="text"
+                placeholder="TikTok"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
+              />
             </div>
 
             {/* Services dropdown */}
@@ -110,7 +163,7 @@ export default function Contact() {
               <label className="block font-semibold mb-2 text-white">
                 How did you hear about us?
               </label>
-              <select className="border p-3 rounded w-full bg-white bg-opacity-82">
+              <select className="border p-3 rounded w-full bg-white bg-opacity-80">
                 <option value="">Select an option</option>
                 <option value="instagram">Instagram</option>
                 <option value="tiktok">TikTok</option>
@@ -123,7 +176,7 @@ export default function Contact() {
             {/* Submit */}
             <button
               type="submit"
-              className="mt-6 bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 w-full"
+              className="mt-6 bg-black text-white px-6 py-3 rounded hover:bg-gray-800"
             >
               Submit
             </button>
