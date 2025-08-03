@@ -57,7 +57,7 @@ export default function HomePage() {
 
       {/* Hero section with background image */}
       <HeroBackground imageUrl="/assets/background.png" overlayOpacity={0.5}>
-        <h1 className="text-5xl font-bold">We Build Social Strategies with Impact</h1>
+        <h1 className="text-5xl font-bold">Building Social Strategies with Impact</h1>
         <p className="mt-4 text-xl">From Concept to Conversion, We've Got You Covered</p>
         <Button size="lg" className="mt-6">Let's Collaborate</Button>
       </HeroBackground>
