@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="font-sans">
       {/* Header + GIF Section */}
-      <section className="relative flex flex-col md:flex-row items-center justify-center py-16 px-4 pt-50 pb-32 bg-white">
+      <section className="relative flex flex-col md:flex-row items-center justify-center pt-24 pb-32 px-4 bg-white">
         {/* Left: GIF with red offset box */}
         <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
           <div
