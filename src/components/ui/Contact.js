@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="relative mx-auto my-8 w-80 h-80">
           {/* Off-center black “shadow” box */}
           <div
-            className="absolute bg-red rounded-lg"
+            className="absolute bg-black rounded-lg"
             style={{
               top: "20%",
               left: "-20%",
