@@ -12,7 +12,7 @@ export default function Contact() {
         </h1>
 
         {/* Animated GIF with rounded corners and offset black box behind */}
-        <div className="relative mx-auto my-8 w-120 h-auto">
+        <div className="relative mx-auto my-8 w-85 h-auto">
           {/* Off-center black “shadow” box */}
           <div
             className="absolute bg-red rounded-lg"
@@ -21,7 +21,7 @@ export default function Contact() {
               left: "-16%",
               width: "100%",
               height: "100%",
-              transform: "rotate(0deg)",
+              transform: "rotate(90deg)",
             }}
           />
           {/* Your GIF */}
