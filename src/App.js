@@ -1,10 +1,11 @@
-  // src/App.js
+// src/App.js
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/ui/Navbar';
-import Footer from './components/ui/Footer';
+// Import Navbar and Footer as named exports
+import { Navbar } from './components/ui/Navbar';
+import { Footer } from './components/ui/Footer';
 
 import HomePage from './HomePage';
 import Contact from './pages/Contact';
