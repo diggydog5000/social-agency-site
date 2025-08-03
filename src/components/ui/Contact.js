@@ -28,7 +28,7 @@ export default function Contact() {
         {/* Right: Text, level with GIF */}
         <div className="mt-8 md:mt-0 md:ml-12 max-w-md text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-bold italic text-gray-900">
-            Get In Touch
+            Get In Touch.
           </h1>
           <p className="mt-4 text-lg text-gray-700">
             We’d love to hear from you. Whether you’re ready to start your next big
@@ -50,14 +50,67 @@ export default function Contact() {
           <form className="space-y-6 bg-transparent">
             {/* First Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* ...other fields unchanged... */}
               <input
                 type="text"
                 required
                 placeholder="First Name"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
-              {/* ... */}
+              <input
+                type="text"
+                required
+                placeholder="Last Name"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="email"
+                required
+                placeholder="Email"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="text"
+                required
+                placeholder="Company Name"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="text"
+                required
+                placeholder="Business Industry"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <textarea
+                required
+                placeholder="Describe your brand in a few sentences"
+                className="border p-3 rounded w-full bg-white bg-opacity-82 md:col-span-2"
+                rows={3}
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number (optional)"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="text"
+                placeholder="Where are you located?"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="url"
+                placeholder="Website"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="text"
+                placeholder="Instagram"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
+              <input
+                type="text"
+                placeholder="TikTok"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              />
             </div>
 
             {/* Services dropdown */}
@@ -67,7 +120,7 @@ export default function Contact() {
               </label>
               <select
                 required
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-82"
               >
                 <option value="">Select a service</option>
                 <option>Social Media Management</option>
@@ -90,7 +143,7 @@ export default function Contact() {
                 <input
                   type="text"
                   required
-                  className="border p-3 rounded w-full bg-white bg-opacity-80"
+                  className="border p-3 rounded w-full bg-white bg-opacity-82"
                 />
               </div>
               <div>
@@ -100,7 +153,7 @@ export default function Contact() {
                 <input
                   type="date"
                   required
-                  className="border p-3 rounded w-full bg-white bg-opacity-80"
+                  className="border p-3 rounded w-full bg-white bg-opacity-82"
                 />
               </div>
             </div>
