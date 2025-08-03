@@ -20,19 +20,19 @@ export function Navbar() {
       {/* Navigation links on the right */}
       <div className="space-x-6">
         <Link to="/" className="text-white hover:underline">
-          Home
+          HOME
         </Link>
         <Link to="/services" className="text-white hover:underline">
-          Services
+          SERVICES
         </Link>
         <Link to="/work" className="text-white hover:underline">
-          Work
+          WORK
         </Link>
         <Link to="/about" className="text-white hover:underline">
-          About
+          ABOUT
         </Link>
         <Link to="/contact" className="text-white hover:underline">
-          Contact
+          CONTACT
         </Link>
       </div>
     </nav>
