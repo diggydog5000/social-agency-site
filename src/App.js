@@ -8,7 +8,7 @@ import { Navbar } from './components/ui/Navbar';
 import { Footer } from './components/ui/Footer';
 
 import HomePage from './HomePage';
-import Contact from './pages/Contact.js';
+import Contact from './components/ui/Contact';
 
 export default function App() {
   return (
