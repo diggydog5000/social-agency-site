@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="font-sans">
       {/* Header + GIF Section */}
-      <section className="relative flex flex-col md:flex-row items-center justify-center py-16 px-4 pt-50 pb-32 bg-white">
+      <section className="relative flex flex-col md:flex-row items-center justify-center py-16 px-4 pt-100 pb-32 bg-white">
         {/* Left: GIF with red offset box */}
         <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
           <div
@@ -30,7 +30,7 @@ export default function Contact() {
           <h1 className="text-5xl md:text-6xl font-bold italic text-gray-900">
             Get In Touch.
           </h1>
-          <p className="mt-4 text-xl md:text-1xl text-gray-700">
+          <p className="mt-4 text-xl md:text-1xl text-black-700">
             We’d love to hear from you. Whether you’re ready to start your next big
             project or just want to learn more about what we do, this is where it
             all begins. Let’s build something impactful.
