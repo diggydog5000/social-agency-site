@@ -6,9 +6,9 @@ export default function Contact() {
   return (
     <div className="font-sans">
       {/* Header + GIF Section */}
-      <section className="relative overflow-hidden flex flex-col md:flex-row items-center justify-center py-16 px-4 bg-white">
+      <section className="relative flex flex-col md:flex-row items-center justify-center py-16 px-4 bg-white">
         {/* Left: GIF with red offset box */}
-        <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0 overflow-hidden">
+        <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
           <div
             className="absolute bg-red-500 rounded-lg"
             style={{
@@ -28,9 +28,9 @@ export default function Contact() {
         {/* Right: Text, level with GIF */}
         <div className="mt-8 md:mt-0 md:ml-12 max-w-md text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-bold italic text-gray-900">
-            Get In Touch
+            Get In Touch.
           </h1>
-          <p className="mt-4 text-xl md:text-2xl text-gray-700">
+          <p className="mt-4 text-xl md:text-1xl text-gray-700">
             We’d love to hear from you. Whether you’re ready to start your next big
             project or just want to learn more about what we do, this is where it
             all begins. Let’s build something impactful.
@@ -38,9 +38,8 @@ export default function Contact() {
         </div>
       </section>
 
-
       {/* Divider */}
-      <div className="h-1 bg-black" />
+      <div className="h-1 bg-red" />
 
       {/* Contact Form Section with Transparent Background */}
       <section
@@ -164,7 +163,7 @@ export default function Contact() {
               <label className="block font-semibold mb-2 text-white">
                 How did you hear about us?
               </label>
-              <select className="border p-3 rounded w-full bg-white bg-opacity-81">
+              <select className="border p-3 rounded w-full bg-white bg-opacity-801">
                 <option value="">Select an option</option>
                 <option value="instagram">Instagram</option>
                 <option value="tiktok">TikTok</option>
