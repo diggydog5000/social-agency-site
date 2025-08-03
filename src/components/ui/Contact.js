@@ -16,7 +16,6 @@ export default function Contact() {
               left: "-20%",
               width: "100%",
               height: "100%",
-            
             }}
           />
           <img
@@ -28,7 +27,7 @@ export default function Contact() {
 
         {/* Right: Text, level with GIF */}
         <div className="mt-8 md:mt-0 md:ml-12 max-w-md text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h1 className="text-5xl md:text-6xl font-bold italic text-gray-900">
             Get In Touch
           </h1>
           <p className="mt-4 text-lg text-gray-700">
@@ -55,25 +54,25 @@ export default function Contact() {
                 type="text"
                 required
                 placeholder="First Name"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-85"
               />
               <input
                 type="text"
                 required
                 placeholder="Last Name"
-                className="border p-3 rounded w-full bg-white bg-opacity-90"
+                className="border p-3 rounded w-full bg-white bg-opacity-85"
               />
               <input
                 type="email"
                 required
                 placeholder="Email"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-85"
               />
               <input
                 type="text"
                 required
                 placeholder="Company Name"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-85"
               />
               <input
                 type="text"
