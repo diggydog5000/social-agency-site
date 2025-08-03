@@ -63,7 +63,7 @@ export default function HomePage() {
       </HeroBackground>
 
 
-      <Footer />
+      
       <ChatWidget />
     </div>
   );
