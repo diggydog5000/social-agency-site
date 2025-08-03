@@ -31,7 +31,7 @@ export default function Contact() {
             Get In Touch.
           </h1>
           <p className="mt-4 text-xl md:text-1xl text-black-700">
-            We’d love to hear from you. Whether you’re ready to start your next big
+            We’d love to hear from you! Whether you’re ready to start your next big
             project or just want to learn more about what we do, this is where it
             all begins. Let’s build something impactful.
           </p>
