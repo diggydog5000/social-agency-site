@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="font-sans">
       {/* Header + GIF Section */}
-      <section className="relative flex flex-col md:flex-row items-center justify-center py-16 px-4 bg-white">
+      <section className="relative flex flex-col md:flex-row items-center justify-center py-16 px-4 pt-20 pb-32 bg-white">
         {/* Left: GIF with red offset box */}
         <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
           <div
@@ -39,7 +39,7 @@ export default function Contact() {
       </section>
 
       {/* Divider */}
-      <div className="h-1 bg-red" />
+      <div className="h-1 bg-red-500" />
 
       {/* Contact Form Section with Transparent Background */}
       <section
