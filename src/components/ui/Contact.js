@@ -13,11 +13,10 @@ export default function Contact() {
           <div
             className="absolute bg-black rounded-lg"
             style={{
-              top: "10%",
-              left: "-10%",
+              top: "20%",
+              left: "-20%",
               width: "100%",
               height: "100%",
-              transform: "rotate(-4deg)",
             }}
           />
           {/* The GIF */}
