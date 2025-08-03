@@ -15,10 +15,12 @@ export default function Contact() {
       <div className="h-1 bg-gray-300" />
 
       {/* Contact Form Section */}
-      <section className="bg-gray-100 py-16 px-6">
-        <form className="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg space-y-6">
+      <section 
+      className="bg-cover bg-center py-20 px-6"
+        style={{ backgroundImage: "url('/assets/background.png')" }}
+        >
           {/* Section 1: General Info */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="max-w-4xl mx-auto bg-white bg-opacity-95 p-8 rounded-2xl shadow-lg backdrop-blur-md space-y-6">
             <div>
               <label className="block font-medium text-gray-700">First Name *</label>
               <input type="text" required className="w-full mt-1 border rounded-lg p-2" />
