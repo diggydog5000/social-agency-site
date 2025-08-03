@@ -5,145 +5,137 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="font-sans">
-      {/* Header Section with GIF and overlayed text */}
-      <section className="relative text-center py-16 px-4">
-        {/* GIF container */}
-        <div className="relative mx-auto my-8 w-80 h-80">
-          {/* Off-center black “shadow” box */}
+      {/* Header + GIF Section */}
+      <section className="relative flex flex-col md:flex-row items-center py-16 px-4 bg-white">
+        {/* Left: GIF with red offset box */}
+        <div className="relative w-64 h-64 md:w-80 md:h-80 flex-shrink-0 mx-auto md:mx-0">
           <div
-            className="absolute bg-black rounded-lg"
+            className="absolute bg-red-500 rounded-lg"
             style={{
               top: "20%",
               left: "-20%",
               width: "100%",
               height: "100%",
+            
             }}
           />
-          {/* The GIF */}
           <img
             src="/assets/contact-image.gif"
             alt="Contact Illustration"
             className="relative z-10 w-full h-full object-cover rounded-lg"
           />
-          {/* Overlayed text */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
-              Get In Touch
-            </h1>
-            <p className="mt-4 text-lg max-w-md text-white drop-shadow-lg">
-              We’d love to hear from you. Whether you’re ready to start your next big
-              project or just want to learn more about what we do, this is where it
-              all begins. Let’s build something impactful.
-            </p>
-          </div>
+        </div>
+
+        {/* Right: Overlayed text */}
+        <div className="mt-8 md:mt-0 md:ml-12 text-center md:text-left">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+            Get In Touch
+          </h1>
+          <p className="mt-4 text-lg max-w-md text-gray-700">
+            We’d love to hear from you. Whether you’re ready to start your next big
+            project or just want to learn more about what we do, this is where it
+            all begins. Let’s build something impactful.
+          </p>
         </div>
       </section>
 
       {/* Divider */}
       <div className="h-1 bg-gray-300" />
 
-      {/* Contact Form Section with Background */}
+      {/* Contact Form Section with background */}
       <section
         className="bg-cover bg-center py-20 px-6"
         style={{ backgroundImage: "url('/assets/background.png')" }}
       >
-        <div className="max-w-4xl mx-auto bg-white bg-opacity-95 p-8 rounded-2xl shadow-lg backdrop-blur-md space-y-6">
-          <form className="space-y-6">
+        <div className="max-w-4xl mx-auto p-8 rounded-2xl shadow-lg space-y-6 bg-transparent">
+          <form className="space-y-6 bg-transparent">
             {/* First Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <input
                 type="text"
                 required
                 placeholder="First Name"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="text"
                 required
                 placeholder="Last Name"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="email"
                 required
                 placeholder="Email"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="text"
                 required
                 placeholder="Company Name"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="text"
                 required
                 placeholder="Business Industry"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <textarea
                 required
                 placeholder="Describe your brand in a few sentences"
-                className="border p-3 rounded w-full md:col-span-2"
+                className="border p-3 rounded w-full bg-white bg-opacity-80 md:col-span-2"
+                rows={3}
               />
               <input
                 type="tel"
                 placeholder="Phone Number (optional)"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="text"
                 placeholder="Where are you located?"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="url"
                 placeholder="Website"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="text"
                 placeholder="Instagram"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 type="text"
                 placeholder="TikTok"
-                className="border p-3 rounded w-full"
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
             </div>
 
-            {/* Second Section */}
+            {/* Services dropdown */}
             <div>
               <label className="block font-semibold mb-2">
                 What services are you interested in?
               </label>
-              <div className="mt-4 space-y-2">
-                {[
-                  "Social Media Management",
-                  "Social Media Audit",
-                  "Content Capture (shoot days, bulk content days) (starts at $1,000)",
-                  "Consultation ($150/hour)",
-                  "Social Media Strategy Deck",
-                  "Campaign/Social Strategy",
-                ].map((service, i) => (
-                  <div key={i}>
-                    <label className="inline-flex items-center">
-                      <input
-                        type="radio"
-                        name="service"
-                        required
-                        className="mr-2"
-                        value={service}
-                      />
-                      {service}
-                    </label>
-                  </div>
-                ))}
-              </div>
+              <select
+                required
+                className="border p-3 rounded w-full bg-white bg-opacity-80"
+              >
+                <option value="">Select a service</option>
+                <option>Social Media Management</option>
+                <option>Social Media Audit</option>
+                <option>
+                  Content Capture (shoot days, bulk content days) (starts at $1,000)
+                </option>
+                <option>Consultation ($150/hour)</option>
+                <option>Social Media Strategy Deck</option>
+                <option>Campaign/Social Strategy</option>
+              </select>
             </div>
 
-            {/* Third Section */}
+            {/* Budget & Date */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block font-semibold mb-2">
@@ -152,7 +144,7 @@ export default function Contact() {
                 <input
                   type="text"
                   required
-                  className="border p-3 rounded w-full"
+                  className="border p-3 rounded w-full bg-white bg-opacity-80"
                 />
               </div>
               <div>
@@ -162,7 +154,7 @@ export default function Contact() {
                 <input
                   type="date"
                   required
-                  className="border p-3 rounded w-full"
+                  className="border p-3 rounded w-full bg-white bg-opacity-80"
                 />
               </div>
             </div>
@@ -172,7 +164,7 @@ export default function Contact() {
               <label className="block font-semibold mb-2">
                 How did you hear about us?
               </label>
-              <select className="border p-3 rounded w-full">
+              <select className="border p-3 rounded w-full bg-white bg-opacity-80">
                 <option value="">Select an option</option>
                 <option value="instagram">Instagram</option>
                 <option value="tiktok">TikTok</option>
