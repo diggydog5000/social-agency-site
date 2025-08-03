@@ -54,62 +54,62 @@ export default function Contact() {
                 type="text"
                 required
                 placeholder="First Name"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="text"
                 required
                 placeholder="Last Name"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="email"
                 required
                 placeholder="Email"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="text"
                 required
                 placeholder="Company Name"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="text"
                 required
                 placeholder="Business Industry"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <textarea
                 required
                 placeholder="Describe your brand in a few sentences"
-                className="border p-3 rounded w-full bg-white bg-opacity-82 md:col-span-2"
+                className="border p-3 rounded w-full bg-white bg-opacity-81 md:col-span-2"
                 rows={3}
               />
               <input
                 type="tel"
                 placeholder="Phone Number (optional)"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="text"
                 placeholder="Where are you located?"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="url"
                 placeholder="Website"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="text"
                 placeholder="Instagram"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
               <input
                 type="text"
                 placeholder="TikTok"
-                className="border p-3 rounded w-full bg-white bg-opacity-80"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               />
             </div>
 
@@ -120,7 +120,7 @@ export default function Contact() {
               </label>
               <select
                 required
-                className="border p-3 rounded w-full bg-white bg-opacity-82"
+                className="border p-3 rounded w-full bg-white bg-opacity-81"
               >
                 <option value="">Select a service</option>
                 <option>Social Media Management</option>
@@ -143,7 +143,7 @@ export default function Contact() {
                 <input
                   type="text"
                   required
-                  className="border p-3 rounded w-full bg-white bg-opacity-82"
+                  className="border p-3 rounded w-full bg-white bg-opacity-81"
                 />
               </div>
               <div>
@@ -153,7 +153,7 @@ export default function Contact() {
                 <input
                   type="date"
                   required
-                  className="border p-3 rounded w-full bg-white bg-opacity-82"
+                  className="border p-3 rounded w-full bg-white bg-opacity-81"
                 />
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function Contact() {
               <label className="block font-semibold mb-2 text-white">
                 How did you hear about us?
               </label>
-              <select className="border p-3 rounded w-full bg-white bg-opacity-80">
+              <select className="border p-3 rounded w-full bg-white bg-opacity-81">
                 <option value="">Select an option</option>
                 <option value="instagram">Instagram</option>
                 <option value="tiktok">TikTok</option>
