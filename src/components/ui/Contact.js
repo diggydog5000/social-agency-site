@@ -11,12 +11,26 @@ export default function Contact() {
           Get In Touch
         </h1>
 
-        {/* Animated GIF */}
-        <img
-          src="/assets/contact-image.gif"
-          alt="Contact Illustration"
-          className="mx-auto my-8 w-48 h-auto"
-        />
+        {/* Animated GIF with rounded corners and offset black box behind */}
+        <div className="relative mx-auto my-8 w-64 h-80">
+          {/* Off-center black “shadow” box */}
+          <div
+            className="absolute bg-black rounded-lg"
+            style={{
+              top: "12%",
+              left: "-8%",
+              width: "100%",
+              height: "100%",
+              transform: "rotate(-3deg)",
+            }}
+          />
+          {/* Your GIF */}
+          <img
+            src="/assets/contact-image.gif"
+            alt="Contact Illustration"
+            className="relative z-10 h-full w-full object-cover rounded-lg"
+          />
+        </div>
 
         <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-600">
           We’d love to hear from you. Whether you’re ready to start your next big
