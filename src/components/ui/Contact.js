@@ -68,13 +68,15 @@ export default function Contact() {
               <input
                 name="email"
                 type="email"
-                placeholder="Email"
+                required
+                placeholder="Email (required)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 name="company"
                 type="text"
-                placeholder="Company Name"
+                required
+                placeholder="Company Name (required)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
@@ -92,7 +94,7 @@ export default function Contact() {
               <input
                 name="phone"
                 type="text"
-                placeholder="Phone Number (optional)"
+                placeholder="Phone Number"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
