@@ -9,6 +9,8 @@ import { Footer } from './components/ui/Footer';
 
 import HomePage from './HomePage';
 import Contact from './components/ui/Contact';
+import Services  from "./components/ui/Services";
+
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
