@@ -19,7 +19,7 @@ export default function Services() {
             <img
               src="/assets/hero-image.png"
               alt="Hero: digital marketing mockup"
-              className="w-3/4 h-auto object-cover rounded-lg shadow"
+              className="w-3/4 h-auto object-cover "
             />
           </div>
 
@@ -47,7 +47,7 @@ export default function Services() {
           <img
             src="/assets/strategy-image.png"
             alt="Strategy & Brand Intelligence"
-            className="w-full h-auto object-cover rounded-lg shadow-md"
+            className="w-full h-auto object-cover rounded-lg"
           />
         </div>
 
@@ -84,7 +84,7 @@ export default function Services() {
           <img
             src="/assets/strategy-image.png"
             alt="Strategy & Brand Intelligence"
-            className="w-full h-auto object-cover rounded-lg shadow-md"
+            className="w-full h-auto object-cover rounded-lg "
           />
         </div>
 
