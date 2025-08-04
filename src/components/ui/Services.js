@@ -1,6 +1,7 @@
 // src/components/ui/Services.js
 
 import React from "react";
+
 export default function Services() {
   return (
     <div className="bg-gray-100 text-gray-900">
@@ -19,7 +20,7 @@ export default function Services() {
             <img
               src="/assets/hero-image.png"
               alt="Hero: digital marketing mockup"
-              className="w-3/4 h-auto object-cover "
+              className="w-[512px] h-[386px] object-cover"
             />
           </div>
 
@@ -43,11 +44,11 @@ export default function Services() {
       {/* Strategy & Brand Intelligence */}
       <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
-        <div className="md:w-1/2 h-96">
+        <div className="md:w-1/2">
           <img
             src="/assets/strategy-image.png"
             alt="Strategy & Brand Intelligence"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-[512px] h-[386px] object-cover rounded-lg"
           />
         </div>
 
@@ -83,8 +84,8 @@ export default function Services() {
         <div className="md:w-1/2">
           <img
             src="/assets/strategy-image.png"
-            alt="Strategy & Brand Intelligence"
-            className="w-full h-auto object-cover rounded-lg "
+            alt="Content Creation & Influencer Partnerships"
+            className="w-[512px] h-[386px] object-cover rounded-lg"
           />
         </div>
 
@@ -92,17 +93,17 @@ export default function Services() {
         <div className="md:w-1/2">
           {/* 2-line section title */}
           <h2 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl">
-          Content Creation & Influencer Partnerships
+            CONTENT CREATION & INFLUENCER PARTNERSHIPS
           </h2>
 
           {/* sub-heading */}
           <div className="mt-4 uppercase text-xs font-semibold text-gray-700">
-          Content Marketing & Influencer Strategy that Captivates and Converts
+            CONTENT MARKETING & INFLUENCER STRATEGY THAT CAPTIVATES AND CONVERTS
           </div>
 
           {/* body text */}
           <p className="mt-4 text-base leading-relaxed">
-          We develop high-impact visual content and strategic influencer campaigns tailored to your audience. From short-form video and branded photography to influencer. activations and cross-channel content calendars, we deliver storytelling that drives engagement and brand loyalty.
+            We develop high-impact visual content and strategic influencer campaigns tailored to your audience. From short-form video and branded photography to influencer activations and cross-channel content calendars, we deliver storytelling that drives engagement and brand loyalty.
           </p>
 
           {/* CTA button */}
@@ -111,18 +112,17 @@ export default function Services() {
           </button>
         </div>
       </section>
-
 
       <hr className="border-red-500" />
 
       {/* Paid & Performance Marketing */}
       <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
-        <div className="md:w-1/2 h-3/5">
+        <div className="md:w-1/2">
           <img
             src="/assets/performance-marketing.jpg"
-            alt="Strategy & Brand Intelligence"
-            className="w-full h-full object-cover rounded-lg shadow-md"
+            alt="Paid & Performance Marketing"
+            className="w-[512px] h-[386px] object-cover rounded-lg shadow-md"
           />
         </div>
 
@@ -130,17 +130,17 @@ export default function Services() {
         <div className="md:w-1/2">
           {/* 2-line section title */}
           <h2 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl">
-          Paid & Performance Marketing
+            PAID & PERFORMANCE MARKETING
           </h2>
 
           {/* sub-heading */}
           <div className="mt-4 uppercase text-xs font-semibold text-gray-700">
-          Performance Marketing and Paid Media that Drives Scalable Growth
+            PERFORMANCE MARKETING AND PAID MEDIA THAT DRIVES SCALABLE GROWTH
           </div>
 
           {/* body text */}
           <p className="mt-4 text-base leading-relaxed">
-          Our Paid & Performance Marketing team delivers full-funnel paid media strategies that combine digital advertising, paid social campaigns, and strategic media planning. Using real-time optimization, data-driven insights, and creative testing, we drive scalable growth, maximize ROI, increase customer acquisition, and extend customer lifetime value, turning every marketing dollar into measurable results.
+            Our Paid & Performance Marketing team delivers full-funnel paid media strategies that combine digital advertising, paid social campaigns, and strategic media planning. Using real-time optimization, data-driven insights, and creative testing, we drive scalable growth, maximize ROI, increase customer acquisition, and extend customer lifetime value, turning every marketing dollar into measurable results.
           </p>
 
           {/* CTA button */}
@@ -149,8 +149,6 @@ export default function Services() {
           </button>
         </div>
       </section>
-
-
 
     </div>
   );
