@@ -69,7 +69,7 @@ export default function Contact() {
                 name="email"
                 type="email"
                 required
-                placeholder="Email (required)"
+                placeholder="Email (required!)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
