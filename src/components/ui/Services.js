@@ -41,14 +41,14 @@ export default function Services() {
 
       <hr className="border-red-500" />
 
-      {/* Strategy & Brand Intelligence */}
-      <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
+    {/* Paid & Performance Marketing */}
+    <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
         <div className="md:w-1/2">
           <img
-            src="/assets/strategy-image.png"
-            alt="Strategy & Brand Intelligence"
-            className="w-[512px] h-[386px] object-cover rounded-lg"
+            src="/assets/performance-marketing.jpg"
+            alt="Paid & Performance Marketing"
+            className="w-[512px] h-[386px] object-cover rounded-lg shadow-md"
           />
         </div>
 
@@ -56,17 +56,17 @@ export default function Services() {
         <div className="md:w-1/2">
           {/* 2-line section title */}
           <h2 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl">
-            STRATEGY & BRAND<br/>INTELLIGENCE
+            PAID & PERFORMANCE MARKETING
           </h2>
 
           {/* sub-heading */}
           <div className="mt-4 uppercase text-xs font-semibold text-gray-700">
-            DIGITAL STRATEGY SERVICES THAT ALIGN BRAND GOALS WITH CONSUMER BEHAVIOR
+            PERFORMANCE MARKETING AND PAID MEDIA THAT DRIVES SCALABLE GROWTH
           </div>
 
           {/* body text */}
           <p className="mt-4 text-base leading-relaxed">
-            Our Strategy & Brand Intelligence team crafts custom digital strategies rooted in data, behavioral insights, and market trends. From brand positioning and audience segmentation to content roadmaps and campaign planning, we turn insights into action to fuel brand growth.
+            Our Paid & Performance Marketing team delivers full-funnel paid media strategies that combine digital advertising, paid social campaigns, and strategic media planning. Using real-time optimization, data-driven insights, and creative testing, we drive scalable growth, maximize ROI, increase customer acquisition, and extend customer lifetime value, turning every marketing dollar into measurable results.
           </p>
 
           {/* CTA button */}
@@ -115,14 +115,15 @@ export default function Services() {
 
       <hr className="border-red-500" />
 
-      {/* Paid & Performance Marketing */}
+
+      {/* Strategy & Brand Intelligence */}
       <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
         <div className="md:w-1/2">
           <img
-            src="/assets/performance-marketing.jpg"
-            alt="Paid & Performance Marketing"
-            className="w-[512px] h-[386px] object-cover rounded-lg shadow-md"
+            src="/assets/take-photo.png"
+            alt="Strategy & Brand Intelligence"
+            className="w-[512px] h-[386px] object-cover rounded-lg"
           />
         </div>
 
@@ -130,17 +131,17 @@ export default function Services() {
         <div className="md:w-1/2">
           {/* 2-line section title */}
           <h2 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl">
-            PAID & PERFORMANCE MARKETING
+            STRATEGY & BRAND<br/>INTELLIGENCE
           </h2>
 
           {/* sub-heading */}
           <div className="mt-4 uppercase text-xs font-semibold text-gray-700">
-            PERFORMANCE MARKETING AND PAID MEDIA THAT DRIVES SCALABLE GROWTH
+            DIGITAL STRATEGY SERVICES THAT ALIGN BRAND GOALS WITH CONSUMER BEHAVIOR
           </div>
 
           {/* body text */}
           <p className="mt-4 text-base leading-relaxed">
-            Our Paid & Performance Marketing team delivers full-funnel paid media strategies that combine digital advertising, paid social campaigns, and strategic media planning. Using real-time optimization, data-driven insights, and creative testing, we drive scalable growth, maximize ROI, increase customer acquisition, and extend customer lifetime value, turning every marketing dollar into measurable results.
+            Our Strategy & Brand Intelligence team crafts custom digital strategies rooted in data, behavioral insights, and market trends. From brand positioning and audience segmentation to content roadmaps and campaign planning, we turn insights into action to fuel brand growth.
           </p>
 
           {/* CTA button */}
@@ -150,6 +151,10 @@ export default function Services() {
         </div>
       </section>
 
+  
+
+
+      
     </div>
   );
 }
