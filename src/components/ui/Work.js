@@ -4,9 +4,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Replace these imports with your actual case-study images
-import CaseStudy1 from '../../assets/work-case-1.png';
-import CaseStudy2 from '../../assets/work-case-2.png';
-import CaseStudy3 from '../../assets/work-case-3.png';
+import CaseStudy1 from '../public/assets/work-case-1.png';
+import CaseStudy2 from '../public/assets/work-case-2.png';
+import CaseStudy3 from '../public/assets/work-case-3.png';
 
 export default function Work() {
   const caseStudies = [
