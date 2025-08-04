@@ -26,7 +26,7 @@ export default function Services() {
       </section>
 
       {/* Intro line */}
-      <section className="pb-2 py-8 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-end text-right">
+      <section className="pb-2 py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-end text-right">
 
         {/* small uppercase tagline */}
         <div className="uppercase text-xs font-bold text-gray-700">
