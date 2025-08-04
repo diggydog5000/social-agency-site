@@ -6,7 +6,7 @@ export default function Services() {
     <div className="bg-gray-100 text-gray-900">
 
       {/* Hero */}
-      <section className="px-2 py-2 md:py-12 lg:py-16 max-w-7xl mx-auto">
+      <section className="px-2 py-4 md:py-12 lg:py-16 max-w-7xl mx-auto">
         {/* 2-line uppercase, extra-large heading */}
         <h1 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem]">
           DIGITAL MARKETING SOLUTIONS<br/>FOR YOUR BRAND
