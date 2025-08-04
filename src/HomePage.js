@@ -1,6 +1,7 @@
 // src/HomePage.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { HeroBackground } from './components/ui/HeroBackground';
 import {
   Button,
@@ -59,12 +60,17 @@ export default function HomePage() {
       <HeroBackground imageUrl="/assets/background.png" overlayOpacity={0.5}>
         <h1 className="text-5xl font-bold">Building Social Strategies That Work</h1>
         <p className="mt-4 text-xl">From Concept to Conversion</p>
-        <Button size="lg" className="mt-6">Let's Collaborate</Button>
+        <Link to="/contact">
+          <Button size="lg" className="mt-6">
+            Let's Collaborate
+          </Button>
+        </Link>
       </HeroBackground>
 
-
-      
+      {/* Chat widget */}
       <ChatWidget />
+
+      <Footer />
     </div>
   );
 }
