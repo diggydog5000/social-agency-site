@@ -37,9 +37,7 @@ export function Navbar() {
           Work
         </Link>
         <Link to="/contact" className="text-white hover:text-gray-800">
-        <Button className="mt-8 inline-block bg-transparent text-white font-light py-2 px-3 rounded-full hover:bg-gray-800 transition">
-           Contact
-          </Button>
+          Contact
         </Link>
       </div>
     </nav>
