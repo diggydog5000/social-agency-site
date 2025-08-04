@@ -1,10 +1,6 @@
 // src/components/ui/Services.js
 
 import React from "react";
-// Make sure these two files exist in src/assets/ and are .png
-import HeroImage from "../../assets/hero-image.png";
-import StrategyImage from "../../assets/strategy-image.png";
-
 export default function Services() {
   return (
     <div className="bg-gray-100 text-gray-900">
@@ -19,7 +15,7 @@ export default function Services() {
         {/* Hero image below the heading */}
         <div className="mt-8 max-w-4xl">
           <img
-            src={HeroImage}
+            src="/assets/hero-image.png"
             alt="Hero: digital marketing mockup"
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
@@ -52,7 +48,7 @@ export default function Services() {
         {/* Left: image */}
         <div className="md:w-1/2">
           <img
-            src={StrategyImage}
+            src="/assets/strategy-image.png"
             alt="Strategy & Brand Intelligence"
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
