@@ -43,11 +43,11 @@ export default function Services() {
       {/* Strategy & Brand Intelligence */}
       <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 h-96">
           <img
             src="/assets/strategy-image.png"
             alt="Strategy & Brand Intelligence"
-            className="w-full h-auto object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
 
@@ -118,11 +118,11 @@ export default function Services() {
       {/* Paid & Performance Marketing */}
       <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 h-96">
           <img
             src="/assets/performance-marketing.jpg"
             alt="Strategy & Brand Intelligence"
-            className="w-full h-3/4 object-cover rounded-lg shadow-md"
+            className="w-full h-full object-cover rounded-lg shadow-md"
           />
         </div>
 
