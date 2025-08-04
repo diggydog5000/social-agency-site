@@ -6,7 +6,7 @@ export default function Services() {
     <div className="bg-gray-100 text-gray-900">
 
       {/* Hero */}
-      <section className="px-2 py-16 md:py-24 lg:py-32 max-w-7xl mx-auto">
+      <section className="px-2 py-4 md:py-24 lg:py-32 max-w-7xl mx-auto">
         {/* 2-line uppercase, extra-large heading */}
         <h1 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem]">
           DIGITAL MARKETING SOLUTIONS<br/>FOR YOUR BRAND
@@ -26,7 +26,7 @@ export default function Services() {
       </section>
 
       {/* Intro line */}
-      <section className="pb-2 py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-end text-right">
+      <section className="px-2 py-4 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-end text-right">
 
         {/* small uppercase tagline */}
         <div className="uppercase text-xs font-bold text-gray-700">
