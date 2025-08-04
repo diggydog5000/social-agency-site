@@ -25,7 +25,7 @@ export function Navbar() {
         <Link to="/services" className="text-white hover:rotate-3">
           SERVICES
         </Link>
-        <Link to="/work" className="text-white hover:underline">
+        <Link to="/work" className="text-white hover:tracking-wide">
           WORK
         </Link>
 
