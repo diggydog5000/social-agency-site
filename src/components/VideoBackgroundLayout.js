@@ -12,8 +12,8 @@ export function VideoBackgroundLayout({ src, children }) {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-black" />
-      <div className="relative z-10">{children}</div>
+      
+      
     </div>
   );
 }
