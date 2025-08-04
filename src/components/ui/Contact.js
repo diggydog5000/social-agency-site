@@ -7,7 +7,35 @@ export default function Contact() {
     <div className="font-sans pt-32">
       {/* Header + GIF Section */}
       <section className="relative flex flex-col md:flex-row items-center justify-center bg-white px-4 pt-24 pb-32">
-        {/* … your GIF + text … */}
+        {/* Left: GIF with red offset box */}
+        <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
+          <div
+            className="absolute bg-red-500 rounded-lg"
+            style={{
+              top: "20%",
+              left: "-20%",
+              width: "100%",
+              height: "100%",
+            }}
+          />
+          <img
+            src="/assets/contact-image.gif"
+            alt="Contact Illustration"
+            className="relative z-10 w-full h-full object-cover rounded-lg"
+          />
+        </div>
+
+        {/* Right: Text, level with GIF */}
+        <div className="mt-8 md:mt-0 md:ml-12 max-w-md text-center md:text-left">
+          <h1 className="text-5xl md:text-6xl font-bold italic text-gray-900">
+            Get In Touch.
+          </h1>
+          <p className="mt-4 text-xl md:text-xl text-gray-700">
+            We’d love to hear from you! Whether you’re ready to start your next big
+            project or just want to learn more about what we do, this is where it
+            all begins. Let’s build something impactful.
+          </p>
+        </div>
       </section>
 
       {/* Divider */}
@@ -20,7 +48,6 @@ export default function Contact() {
       >
         <div className="max-w-4xl mx-auto p-8 rounded-2xl shadow-lg space-y-6 bg-transparent">
           <form
-            // ← point your form here
             action="https://formspree.io/f/mldlwvwd"
             method="POST"
             className="space-y-6"
