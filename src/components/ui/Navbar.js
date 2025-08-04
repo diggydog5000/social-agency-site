@@ -18,11 +18,11 @@ export function Navbar() {
       </div>
 
       {/* Navigation links on the right */}
-      <div className="space-x-6">
+      <div className="space-x-6 font-extrabold">
         <Link to="/" className="text-white hover:underline">
           HOME
         </Link>
-        <Link to="/services" className="text-white hover:underline">
+        <Link to="/services" className="text-white hover:rotate-3">
           SERVICES
         </Link>
         <Link to="/work" className="text-white hover:underline">
