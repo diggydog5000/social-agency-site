@@ -7,7 +7,7 @@ export default function Contact() {
     // 8rem top-padding to clear the fixed nav
     <div className="font-sans pt-28">
       {/* Header + GIF Section */}
-      <section className="relative flex flex-col md:flex-row items-center justify-center bg-white px-4 pt-18 pb-32">
+      <section className="relative flex flex-col md:flex-row items-center justify-center bg-white px-4 pb-32">
         {/* Left: GIF with red offset box */}
         <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
           <div
