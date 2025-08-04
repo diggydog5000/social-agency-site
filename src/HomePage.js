@@ -58,7 +58,7 @@ export default function HomePage() {
 
       {/* Hero section with background image */}
       <HeroBackground imageUrl="/assets/background.png" overlayOpacity={0.5}>
-        <h1 className="text-5xl font-bold">Building Social Strategies That Work</h1>
+        <h1 className="text-5xl font-extrabold uppercase tracking-tight leading-tight">Building Social Strategies That Work</h1>
         <p className="mt-4 text-xl">From Concept to Conversion</p>
         <Link to="/contact">
           <Button size="lg" className="mt-6">
@@ -70,7 +70,7 @@ export default function HomePage() {
       {/* Chat widget */}
       <ChatWidget />
 
-      <Footer />
+      
     </div>
   );
 }

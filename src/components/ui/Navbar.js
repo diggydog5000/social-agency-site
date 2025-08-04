@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full flex items-center justify-between p-2 pl-4 z-20 bg-[#e3dfdc]">
+    <nav className="fixed top-0 left-0 w-full flex items-center justify-between p-2 pl-4 z-20 bg-red-500">
       {/* Logo on the left */}
       <div className="flex-shrink-0">
         <Link to="/">

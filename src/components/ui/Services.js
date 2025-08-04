@@ -8,12 +8,12 @@ export default function Services() {
       {/* Hero */}
       <section className="px-4 py-16 md:py-24 lg:py-32 max-w-7xl mx-auto">
         {/* 2-line uppercase, extra-large heading */}
-        <h1 className="font-extrabold uppercase tracking-tight leading-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem]">
+        <h1 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem]">
           DIGITAL MARKETING SOLUTIONS<br/>FOR YOUR BRAND
         </h1>
 
         {/* Hero image below the heading */}
-        <div className="mt-8 max-w-4xl">
+        <div className="mt-8 max-w-1xl">
           <img
             src="/assets/hero-image.png"
             alt="Hero: digital marketing mockup"
@@ -22,7 +22,7 @@ export default function Services() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="mt-6 text-2xl">↓↓↓</div>
+        <div className="mt-6 text-1xl">↓↓↓</div>
       </section>
 
       <hr className="border-gray-300" />
