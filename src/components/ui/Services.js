@@ -120,7 +120,7 @@ export default function Services() {
         {/* Left: image */}
         <div className="md:w-1/2">
           <img
-            src="/assets/strategy-image.png"
+            src="/assets/performance-marketing.jpg"
             alt="Strategy & Brand Intelligence"
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
