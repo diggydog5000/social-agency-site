@@ -122,7 +122,7 @@ export default function Services() {
           <img
             src="/assets/performance-marketing.jpg"
             alt="Strategy & Brand Intelligence"
-            className="w-full h-auto object-cover rounded-lg shadow-md"
+            className="w-full h-3/4 object-cover rounded-lg shadow-md"
           />
         </div>
 
