@@ -24,7 +24,7 @@ export default function Services() {
           </div>
 
           {/* Right: tagline + paragraph */}
-          <div className="text-right space-y-4">
+          <div className="text-left space-y-4">
             <div className="uppercase text-xs font-bold text-gray-700">
               CUSTOM STRATEGIES, SCALABLE CONTENT, AND PERFORMANCE MEDIA THAT CONVERTS
             </div>
