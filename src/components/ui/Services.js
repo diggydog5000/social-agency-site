@@ -2,9 +2,9 @@
 
 import React from "react";
 // Hero image under the big heading
-import HeroImage from "../../assets/hero-image.jpg";
+import HeroImage from "../../assets/hero-image.png";
 // Image for the “Strategy & Brand Intelligence” section
-import StrategyImage from "../../assets/strategy-image.jpg";
+import StrategyImage from "../../assets/strategy-image.png";
 
 export default function Services() {
   return (
