@@ -4,11 +4,11 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="font-sans pt-32">
+    <div className="font-sans pt-16">
       {/* Header + GIF Section */}
       <section className="relative flex flex-col md:flex-row items-center justify-center bg-white px-4 pt-24 pb-32">
         {/* Left: GIF with red offset box */}
-        <div className="relative w-96 h-96 flex-shrink-0 mx-auto md:mx-0">
+        <div className="relative w-[32rem] h-[32rem] flex-shrink-0 mx-auto md:mx-0">
           <div
             className="absolute bg-red-500 rounded-lg"
             style={{
