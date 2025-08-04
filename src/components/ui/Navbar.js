@@ -19,17 +19,17 @@ export function Navbar() {
 
       {/* Navigation links on the right */}
       <div className="space-x-6 font-extrabold">
-        <Link to="/" className="text-white hover:underline">
+        <Link to="/" className="text-white hover:tracking-wide hover:bg-gray-800">
           HOME
         </Link>
-        <Link to="/services" className="text-white hover:rotate-3">
+        <Link to="/services" className="text-white hover:tracking-wide hover:bg-gray-800">
           SERVICES
         </Link>
-        <Link to="/work" className="text-white hover:tracking-wide bg-gray-800">
+        <Link to="/work" className="text-white hover:tracking-wide hover:bg-gray-800">
           WORK
         </Link>
 
-        <Link to="/contact" className="text-white hover:underline">
+        <Link to="/contact" className="text-white hover:tracking-wide hover:bg-gray-800">
           CONTACT
         </Link>
       </div>
