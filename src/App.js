@@ -10,6 +10,7 @@ import { Footer } from './components/ui/Footer';
 import HomePage from './HomePage';
 import Contact from './components/ui/Contact';
 import Services  from "./components/ui/Services";
+import Work from './components/ui/Work';
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
 
       <Footer />
