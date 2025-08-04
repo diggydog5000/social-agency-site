@@ -25,8 +25,6 @@ export default function Services() {
         <div className="mt-6 text-1xl">↓↓↓</div>
       </section>
 
-      <hr className="border-red-500" />
-
       {/* Intro line */}
       <section className="px-4 py-16 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* empty col for spacing */}
@@ -115,6 +113,43 @@ export default function Services() {
         </div>
       </section>
 
+
+      <hr className="border-red-500" />
+
+      {/* Paid & Performance Marketing */}
+      <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
+        {/* Left: image */}
+        <div className="md:w-1/2">
+          <img
+            src="/assets/strategy-image.png"
+            alt="Strategy & Brand Intelligence"
+            className="w-full h-auto object-cover rounded-lg shadow-md"
+          />
+        </div>
+
+        {/* Right: headline + copy + button */}
+        <div className="md:w-1/2">
+          {/* 2-line section title */}
+          <h2 className="font-extrabold uppercase tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl">
+          Paid & Performance Marketing
+          </h2>
+
+          {/* sub-heading */}
+          <div className="mt-4 uppercase text-xs font-semibold text-gray-700">
+          Performance Marketing and Paid Media that Drives Scalable Growth
+          </div>
+
+          {/* body text */}
+          <p className="mt-4 text-base leading-relaxed">
+          Our Paid & Performance Marketing team delivers full-funnel paid media strategies that combine digital advertising, paid social campaigns, and strategic media planning. Using real-time optimization, data-driven insights, and creative testing, we drive scalable growth, maximize ROI, increase customer acquisition, and extend customer lifetime value, turning every marketing dollar into measurable results.
+          </p>
+
+          {/* CTA button */}
+          <button className="mt-8 inline-block bg-black text-white uppercase font-semibold py-3 px-6 rounded-full hover:bg-gray-800 transition">
+            START YOUR DIGITAL STRATEGY [+]
+          </button>
+        </div>
+      </section>
 
 
 
