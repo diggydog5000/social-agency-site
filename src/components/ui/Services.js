@@ -1,9 +1,8 @@
 // src/components/ui/Services.js
 
 import React from "react";
-// Hero image under the big heading
+// Make sure these two files exist in src/assets/ and are .png
 import HeroImage from "../../assets/hero-image.png";
-// Image for the “Strategy & Brand Intelligence” section
 import StrategyImage from "../../assets/strategy-image.png";
 
 export default function Services() {
