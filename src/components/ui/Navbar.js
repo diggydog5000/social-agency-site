@@ -15,14 +15,14 @@ export function Navbar() {
             className="h-12 w-auto"
           />
         </Link>
-        <div className="h-6 border-l border-white mx-4" />
+        <div className="h-10 border-l border-white mx-4" />
         <span className="text-white uppercase text-sm font-medium">
-          A Digital Growth Agency
+          A Digital <br/> Growth Agency
         </span>
       </div>
 
       {/* Navigation links on the right */}
-      <div className="space-x-6 font-bold">
+      <div className="space-x-6 font-thin">
         <Link to="/" className="text-white hover:text-gray-800">
           HOME
         </Link>
