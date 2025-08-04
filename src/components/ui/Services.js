@@ -20,7 +20,7 @@ export default function Services() {
             <img
               src="/assets/hero-image.png"
               alt="Hero: digital marketing mockup"
-              className="w-1/2 object-cover"
+              className="w-3/4 object-cover"
             />
           </div>
 
