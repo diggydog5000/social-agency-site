@@ -30,7 +30,7 @@ export function Navbar() {
         </Link>
 
         <Link to="/contact" className="text-white hover:underline">
-          CONTACT Brey
+          CONTACT Hey
         </Link>
       </div>
     </nav>
