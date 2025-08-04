@@ -61,7 +61,7 @@ export default function HomePage() {
         <h1 className="text-6xl font-extrabold uppercase tracking-tight leading-tight">Building Social Strategies <br/> That Work.</h1>
         <p className="mt-4 text-xl">From Concept to Conversion</p>
         <Link to="/contact">
-          <Button size="lg" className="mt-6">
+          <Button className="mt-8 inline-block bg-black text-white uppercase font-semibold py-3 px-6 rounded-full hover:bg-gray-800 transition">
             Let's Collaborate
           </Button>
         </Link>
