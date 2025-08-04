@@ -118,7 +118,7 @@ export default function Services() {
       {/* Paid & Performance Marketing */}
       <section className="px-4 py-16 max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
         {/* Left: image */}
-        <div className="md:w-1/2 h-144">
+        <div className="md:w-1/2 h-3/5">
           <img
             src="/assets/performance-marketing.jpg"
             alt="Strategy & Brand Intelligence"
