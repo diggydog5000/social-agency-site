@@ -28,9 +28,7 @@ export function Navbar() {
         <Link to="/work" className="text-white hover:underline">
           WORK
         </Link>
-        <Link to="/about" className="text-white hover:underline">
-          ABOUT
-        </Link>
+       
         <Link to="/contact" className="text-white hover:underline">
           CONTACT
         </Link>
