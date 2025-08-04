@@ -18,7 +18,7 @@ export function Navbar() {
       </div>
 
       {/* Navigation links on the right */}
-      <div className="space-x-6 font-extrabold">
+      <div className="space-x-6 font-bold">
         <Link to="/" className="text-white hover:tracking-wide hover:bg-gray-800">
           HOME
         </Link>
