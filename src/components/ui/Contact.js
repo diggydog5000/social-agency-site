@@ -5,7 +5,7 @@ import React from "react";
 export default function Contact() {
   return (
     // 8rem top-padding to clear the fixed nav
-    <div className="font-sans pt-32">
+    <div className="font-sans pt-28">
       {/* Header + GIF Section */}
       <section className="relative flex flex-col md:flex-row items-center justify-center bg-white px-4 pt-24 pb-32">
         {/* Left: GIF with red offset box */}
