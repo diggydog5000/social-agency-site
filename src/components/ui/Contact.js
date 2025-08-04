@@ -56,48 +56,42 @@ export default function Contact() {
               <input
                 name="firstName"
                 type="text"
-                required
                 placeholder="First Name"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 name="lastName"
                 type="text"
-                required
                 placeholder="Last Name"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 name="email"
                 type="email"
-                required
                 placeholder="Email"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 name="company"
                 type="text"
-                required
                 placeholder="Company Name"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 name="industry"
                 type="text"
-                required
                 placeholder="Business Industry"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <textarea
                 name="description"
-                required
                 placeholder="Describe your brand in a few sentences"
                 className="border p-3 rounded w-full bg-white bg-opacity-80 md:col-span-2"
                 rows={3}
               />
               <input
                 name="phone"
-                type="tel"
+                type="text"
                 placeholder="Phone Number (optional)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
@@ -109,7 +103,7 @@ export default function Contact() {
               />
               <input
                 name="website"
-                type="url"
+                type="text"
                 placeholder="Website"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
@@ -129,12 +123,11 @@ export default function Contact() {
 
             {/* Services dropdown */}
             <div>
-              <label className="block font-semibold mb-2 text-gray-900">
+              <label className="block font-semibold mb-2 text-white">
                 What services are you interested in?
               </label>
               <select
                 name="service"
-                required
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               >
                 <option value="">Select a service</option>
@@ -152,24 +145,22 @@ export default function Contact() {
             {/* Budget & Date */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block font-semibold mb-2 text-gray-900">
+                <label className="block font-semibold mb-2 text-white">
                   What is your estimated budget?
                 </label>
                 <input
                   name="budget"
                   type="text"
-                  required
                   className="border p-3 rounded w-full bg-white bg-opacity-80"
                 />
               </div>
               <div>
-                <label className="block font-semibold mb-2 text-gray-900">
+                <label className="block font-semibold mb-2 text-white">
                   Preferred Start Date
                 </label>
                 <input
                   name="startDate"
                   type="date"
-                  required
                   className="border p-3 rounded w-full bg-white bg-opacity-80"
                 />
               </div>
@@ -177,7 +168,7 @@ export default function Contact() {
 
             {/* Referral */}
             <div>
-              <label className="block font-semibold mb-2 text-gray-900">
+              <label className="block font-semibold mb-2 text-white">
                 How did you hear about us?
               </label>
               <select
