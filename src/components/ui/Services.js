@@ -12,30 +12,30 @@ export default function Services() {
           DIGITAL MARKETING SOLUTIONS<br/>FOR YOUR BRAND
         </h1>
 
-        {/* Hero image below the heading */}
-        <div className="mt-8 max-w-1xl">
-          <img
-            src="/assets/hero-image.png"
-            alt="Hero: digital marketing mockup"
-            className="w-70 h-auto object-cover"
-          />
+        {/* Image + intro copy side-by-side */}
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          {/* Left: hero image */}
+          <div>
+            <img
+              src="/assets/hero-image.png"
+              alt="Hero: digital marketing mockup"
+              className="w-full h-auto object-cover rounded-lg shadow"
+            />
+          </div>
+
+          {/* Right: tagline + paragraph */}
+          <div className="text-right space-y-4">
+            <div className="uppercase text-xs font-bold text-gray-700">
+              CUSTOM STRATEGIES, SCALABLE CONTENT, AND PERFORMANCE MEDIA THAT CONVERTS
+            </div>
+            <p className="text-base leading-relaxed">
+              At Connecticut Creative, we deliver integrated digital marketing solutions that help modern brands grow. Our offerings are designed to build meaningful customer connections, increase ROI, and keep your brand ahead in a constantly evolving digital landscape.
+            </p>
+          </div>
         </div>
 
         {/* Scroll indicator */}
         <div className="mt-6 text-1xl">↓↓↓</div>
-      </section>
-
-      {/* Intro line */}
-      <section className="px-2 py-4 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-end text-right">
-
-        {/* small uppercase tagline */}
-        <div className="uppercase text-xs font-bold text-gray-700">
-          CUSTOM STRATEGIES, SCALABLE CONTENT, AND PERFORMANCE MEDIA THAT CONVERTS
-        </div>
-        {/* paragraph */}
-        <p className="text-base leading-relaxed">
-          At Connecticut Creative, we deliver integrated digital marketing solutions that help modern brands grow. Our offerings are designed to build meaningful customer connections, increase ROI, and keep your brand ahead in a constantly evolving digital landscape.
-        </p>
       </section>
 
       <hr className="border-red-500" />

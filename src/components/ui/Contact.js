@@ -10,7 +10,7 @@ export default function Contact() {
         {/* Left: GIF with red offset box */}
         <div className="relative w-[32rem] h-[32rem] flex-shrink-0 mx-auto md:mx-0">
           <div
-            className="absolute bg-red-500 rounded-lg"
+            className="absolute bg-[#ff043c] rounded-lg"
             style={{
               top: "20%",
               left: "-20%",
@@ -190,7 +190,7 @@ export default function Contact() {
             {/* Submit */}
             <button
               type="submit"
-              className="mt-6 bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 w-full"
+              className="mt-6 bg-[#ff043c] text-white px-6 py-3 rounded hover:bg-red-600 w-full"
             >
               Submit
             </button>
