@@ -17,12 +17,16 @@ export function Navbar() {
         </Link>
         <div className="h-10 border-l border-white mx-4" />
         <span className="text-white uppercase text-sm font-medium">
-          A Digital <br/> Growth Agency
+          A Digital Growth Agency
         </span>
       </div>
 
+      <div
+        className="absolute left-1/2 top-1/2 h-10 border-l border-white transform -translate-x-1/2 -translate-y-1/2"
+      />
+
       {/* Navigation links on the right */}
-      <div className="space-x-6 font-thin">
+      <div className="space-x-6 font-extralight">
         <Link to="/" className="text-white hover:text-gray-800">
           HOME
         </Link>
