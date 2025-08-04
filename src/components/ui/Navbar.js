@@ -30,13 +30,13 @@ export function Navbar() {
         <Link to="/" className="text-white uppercase text-sm font-medium hover:text-gray-800">
           Home
         </Link>
-        <Link to="/services" className="text-white hover:text-gray-800">
+        <Link to="/services" className="text-white uppercase text-sm font-medium hover:text-gray-800">
           Services
         </Link>
-        <Link to="/work" className="text-white hover:text-gray-800">
+        <Link to="/work" className="text-white uppercase text-sm font-medium hover:text-gray-800">
           Work
         </Link>
-        <Link to="/contact" className="text-white hover:text-gray-800">
+        <Link to="/contact" className="text-white uppercase text-sm font-medium hover:text-gray-800">
           Contact
         </Link>
       </div>
