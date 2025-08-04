@@ -56,7 +56,8 @@ export default function Contact() {
               <input
                 name="firstName"
                 type="text"
-                placeholder="First Name"
+                required
+                placeholder="First Name (Required)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
@@ -69,14 +70,14 @@ export default function Contact() {
                 name="email"
                 type="email"
                 required
-                placeholder="Email (required!)"
+                placeholder="Email (Required)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
                 name="company"
                 type="text"
                 required
-                placeholder="Company Name (required)"
+                placeholder="Company Name (Required)"
                 className="border p-3 rounded w-full bg-white bg-opacity-80"
               />
               <input
