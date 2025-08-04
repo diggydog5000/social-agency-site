@@ -27,7 +27,7 @@ export function Navbar() {
 
       {/* Navigation links on the right */}
       <div className="space-x-6 font-light">
-        <Link to="/" className="text-white hover:text-gray-800">
+        <Link to="/" className="text-white uppercase text-sm font-medium hover:text-gray-800">
           Home
         </Link>
         <Link to="/services" className="text-white hover:text-gray-800">
