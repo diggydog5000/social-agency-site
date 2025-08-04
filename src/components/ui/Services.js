@@ -83,7 +83,7 @@ export default function Services() {
         {/* Left: image */}
         <div className="md:w-1/2">
           <img
-            src="/assets/strategy-image.png"
+            src="/assets/content.png"
             alt="Content Creation & Influencer Partnerships"
             className="w-[512px] h-[386px] object-cover rounded-lg"
           />
