@@ -89,8 +89,8 @@ export default function Work() {
           Let’s talk about how we can help your brand unlock its full potential.
         </p>
         <Link to="/contact">
-          <button className="mt-8 bg-black hover:bg-gray-800 text-white uppercase font-semibold py-3 px-8 rounded-full transition">
-            Let’s Collaborate
+          <button className="mt-8 inline-block bg-red-500 text-white uppercase font-semibold py-3 px-6 rounded-full hover:bg-gray-800 transition">
+            Let’s Collaborate [+]
           </button>
         </Link>
       </section>
