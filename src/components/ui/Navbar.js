@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Menu } from '@headlessui/react';
+
 
 export function Navbar() {
   return (
