@@ -11,6 +11,8 @@
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.3.3",
     "class-variance-authority": "^0.5.1"
+    "@headlessui/react": "^1.8.0"
+
   },
   "scripts": {
     "start": "react-scripts start",
