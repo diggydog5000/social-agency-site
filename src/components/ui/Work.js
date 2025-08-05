@@ -11,7 +11,7 @@ export default function Work() {
       description:
         'We overhauled M&Ps social presence with a fresh visual identity, new content pillars, and a community engagement program.',
       result:
-        '🔹 150% increase in engagement in first 3 months\n🔹 2.5K new followers across Instagram & TikTok',
+        ,
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export default function Work() {
       description:
         'Crafted a multi-channel paid media strategy for James clothing launch, leveraging targeted video ads and influencer partnerships.',
       result:
-        '🔹 100% increase pre-orders in 30 days\n🔹 35% lower cost-per-acquisition than industry benchmarks',
+        ,
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ export default function Work() {
       description:
         'Developed a serialized short-form video program to showcase Nimbles real estate portfolio and brand story.',
       result:
-        '🔹 40% lift in brand mentions\n🔹 20% uptick in website traffic from social',
+        ,
     },
   ];
 
