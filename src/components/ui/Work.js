@@ -70,11 +70,7 @@ export default function Work() {
                 <pre className="text-sm text-gray-600 whitespace-pre-wrap mb-6">
                   {result}
                 </pre>
-                <Link to="/contact" className="mt-auto inline-block">
-                  <button className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg transition">
-                    Learn More
-                  </button>
-                </Link>
+                
               </div>
             </div>
           ))}
