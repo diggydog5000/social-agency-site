@@ -6,7 +6,7 @@ export default function Work() {
   const caseStudies = [
     {
       id: 1,
-      image: '/assets/work-case-1.png',
+      image: '/assets/mp.png',
       title: 'Mom & Pops Liquor Social Relaunch',
       description:
         'We overhauled M&Ps social presence with a fresh visual identity, new content pillars, and a community engagement program.',
@@ -15,10 +15,10 @@ export default function Work() {
     },
     {
       id: 2,
-      image: '/assets/work-case-2.png',
+      image: '/assets/james.png',
       title: 'Product Launch Campaign',
       description:
-        'Crafted a multi-channel paid media strategy for Tallmans clothing launch, leveraging targeted video ads and influencer partnerships.',
+        'Crafted a multi-channel paid media strategy for James clothing launch, leveraging targeted video ads and influencer partnerships.',
       result:
         '🔹 100% increase pre-orders in 30 days\n🔹 35% lower cost-per-acquisition than industry benchmarks',
     },
