@@ -7,27 +7,27 @@ export default function Work() {
     {
       id: 1,
       image: '/assets/work-case-1.png',
-      title: 'Brand X Social Relaunch',
+      title: 'Mom & Pops Liquor Social Relaunch',
       description:
-        'We overhauled Brand X’s social presence with a fresh visual identity, new content pillars, and a community engagement program.',
+        'We overhauled M&Ps social presence with a fresh visual identity, new content pillars, and a community engagement program.',
       result:
-        '🔹 150% increase in engagement in first 3 months\n🔹 25K new followers across Instagram & TikTok',
+        '🔹 150% increase in engagement in first 3 months\n🔹 2.5K new followers across Instagram & TikTok',
     },
     {
       id: 2,
       image: '/assets/work-case-2.png',
       title: 'Product Launch Campaign',
       description:
-        'Crafted a multi-channel paid media strategy for Product Y’s launch, leveraging targeted video ads and influencer partnerships.',
+        'Crafted a multi-channel paid media strategy for Tallmans clothing launch, leveraging targeted video ads and influencer partnerships.',
       result:
-        '🔹 10,000+ pre-orders in 30 days\n🔹 35% lower cost-per-acquisition than industry benchmarks',
+        '🔹 100% increase pre-orders in 30 days\n🔹 35% lower cost-per-acquisition than industry benchmarks',
     },
     {
       id: 3,
       image: '/assets/work-case-3.png',
-      title: 'Content Series for Y Corp',
+      title: 'Content Series for Nimble Realty',
       description:
-        'Developed a serialized short-form video program to showcase Y Corp’s sustainability efforts and brand story.',
+        'Developed a serialized short-form video program to showcase Nimbles real estate portfolio and brand story.',
       result:
         '🔹 40% lift in brand mentions\n🔹 20% uptick in website traffic from social',
     },
@@ -82,12 +82,7 @@ export default function Work() {
 
         {/* Call to Action */}
         <section className="bg-gray-100 px-4 py-16 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">
-            Ready to see results like these?
-          </h2>
-          <p className="mt-4 text-gray-700 max-w-2xl mx-auto">
-            Let’s talk about how we can help your brand unlock its full potential.
-          </p>
+         
           <Link to="/contact">
             <button className="mt-8 inline-block bg-red-500 text-white uppercase font-semibold py-3 px-6 rounded-full hover:bg-gray-800 transition">
               Let’s Collaborate [+]
