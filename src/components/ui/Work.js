@@ -24,7 +24,7 @@ export default function Work() {
     },
     {
       id: 3,
-      image: '/assets/work-case-3.png',
+      image: '/assets/Nimble.png',
       title: 'Content Series for Nimble Realty',
       description:
         'Developed a serialized short-form video program to showcase Nimbles real estate portfolio and brand story.',
