@@ -10,8 +10,8 @@ export default function Work() {
       title: 'Mom & Pops Liquor Social Relaunch',
       description:
         'We overhauled M&Ps social presence with a fresh visual identity, new content pillars, and a community engagement program.',
-      result:
-        ,
+      
+        
     },
     {
       id: 2,
@@ -19,8 +19,7 @@ export default function Work() {
       title: 'Product Launch Campaign',
       description:
         'Crafted a multi-channel paid media strategy for James clothing launch, leveraging targeted video ads and influencer partnerships.',
-      result:
-        ,
+     
     },
     {
       id: 3,
@@ -28,8 +27,7 @@ export default function Work() {
       title: 'Content Series for Nimble Realty',
       description:
         'Developed a serialized short-form video program to showcase Nimbles real estate portfolio and brand story.',
-      result:
-        ,
+      
     },
   ];
 
